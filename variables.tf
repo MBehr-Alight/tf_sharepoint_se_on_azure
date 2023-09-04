@@ -4,6 +4,7 @@ variable "location" {
 }
 
 variable "resource_group_name" {
+  default     = "rg_Dev_TF_SPSEonAz"
   description = "Name of the ARM resource group to create"
 }
 
