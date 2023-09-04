@@ -1,1 +1,3 @@
-# tf_sharepoint_se_on_azure
+# Terraform
+
+Deployment for SharePoint SE on Azure
