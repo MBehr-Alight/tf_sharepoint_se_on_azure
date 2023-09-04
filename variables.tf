@@ -221,7 +221,7 @@ variable "number_additional_frontend" {
 }
 
 variable "rdp_traffic_allowed" {
-  default     = "yes"
+  default     = "Internet"
   description = "Specify if RDP traffic is allowed:<br>- If 'No' (default): Firewall denies all incoming RDP traffic.<br>- If '*' or 'Internet': Firewall accepts all incoming RDP traffic from Internet.<br>- If CIDR notation (e.g. 192.168.99.0/24 or 2001:1234::/64) or IP address (e.g. 192.168.99.0 or 2001:1234::): Firewall accepts incoming RDP traffic from the IP addresses specified."
 }
 
