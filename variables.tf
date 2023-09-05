@@ -226,7 +226,7 @@ variable "rdp_traffic_allowed" {
 }
 
 variable "add_public_ip_address" {
-  default     = "SharePointVMsOnly"
+  default     = "Yes"
   description = "Specify if a public IP address should be added."
   validation {
     condition = contains([
