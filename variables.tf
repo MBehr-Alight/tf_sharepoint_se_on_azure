@@ -202,7 +202,7 @@ variable "time_zone" {
 }
 
 variable "auto_shutdown_time" {
-  default     = "1900"
+  default     = "1730"
   type        = string
   description = "The time at which VMs will be automatically shutdown (24h HHmm format). Set value to '9999' to NOT configure the auto shutdown."
   validation {
