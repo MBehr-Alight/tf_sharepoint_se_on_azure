@@ -212,7 +212,7 @@ variable "auto_shutdown_time" {
 }
 
 variable "number_additional_frontend" {
-  default     = 0
+  default     = 1
   description = "Number of MinRole Front-end to add to the farm. The MinRole type can be changed later as needed."
   validation {
     condition     = var.number_additional_frontend >= 0 && var.number_additional_frontend <= 4
