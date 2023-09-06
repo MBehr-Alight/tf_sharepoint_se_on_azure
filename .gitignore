@@ -5,3 +5,4 @@ DSC/test.txt
 terraform.tfstate
 terraform.tfstate.backup
 .terraform.tfstate.lock.info
+Deployment_230906_0745.tfplan
